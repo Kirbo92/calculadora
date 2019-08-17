@@ -9,7 +9,25 @@
 #include <stdio.h>
 
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    printf("Hello, World!\n");
+    // Variables
+    int x, y, suma, resta, multiplicacion, division;
+    
+    printf("Introduzca el primer numero:\n");
+    scanf("%i", &x);
+    
+    printf("Introduzca el segundo numero:\n");
+    scanf("%i", &y);
+    
+    suma = x + y;
+    resta = x - y;
+    multiplicacion = x * y;
+    division = x / y;
+    printf("La suma de %i y de %i es: %i\n", x, y, suma);
+    printf("La resta de %i y de %i es: %i\n", x, y, resta);
+    printf("La multiplicacion de %i y de %i es: %i\n", x, y, multiplicacion);
+    printf("La division de %i y de %i es: %i\n", x, y, division);
+
+    
+    
     return 0;
 }
